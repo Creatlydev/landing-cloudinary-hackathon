@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-large {
+    font-size: 2rem;
+    font-size: clamp(1.5rem, 7vw, 3rem);
+  }
+}
