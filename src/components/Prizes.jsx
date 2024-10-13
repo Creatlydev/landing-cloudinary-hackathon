@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 
-import { ArrorLeft, ArrowRight, CheckIcon } from './Icons'
+import { ArrorLeft, ArrowLink, ArrowRight, CheckIcon, SendIcon } from './Icons'
 import Button from './Button'
 
 export default function Prizes () {
@@ -105,7 +105,22 @@ export default function Prizes () {
         </div>
 
         <div className='mt-12'>
-          <Button />
+          <div className='flex flex-col lg:flex-row items-center justify-center gap-4'>
+            <Button />
+
+            <a
+              href='https://cld.media/cloudcreatesubmit'
+              className='font-normal inline-flex items-center gap-2 px-4 py-2 bg-grey/50 rounded-[100vh] text-nowrap'
+              target='_blank' rel='noreferrer'
+            >
+              <SendIcon />
+              {t('SEND_PROJECT')}
+              <ArrowLink
+                width={20}
+                height={20}
+              />
+            </a>
+          </div>
         </div>
       </div>
     </section>
