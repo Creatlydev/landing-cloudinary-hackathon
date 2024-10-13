@@ -9,5 +9,16 @@
   "USING_IA_TO_GENERATE": "Usando IA para generar",
   "TRANSFORMING_IMAGES": "Transformando imágenes",
   "VIDEOS_WITH_OVERLAYS": "Videos con superposiciones terroríficas.",
-  "PRIZES": "PREMIOS"
+  "PRIZES": "PREMIOS",
+  "WHAT_CAN_WIN": "¿Que premios puedo ganar?",
+  "TOP_TEN_WINNERS": "Los 10 primeros ganadores recibirán un kit Cloudinary Swag, que incluye",
+  "TOP_THREE_WINNERS": "Los tres primeros ganadores también recibirán",
+  "TSHIRT_CLOUDINARY": "1 camiseta Cloudinary x Midudev de edición limitada",
+  "STICKER_CLOUDINARY": "1 pegatina de edición limitada Cloudinary x Midudev",
+  "CLOUDINARY_STICKERS": "3 Pegatinas Cloudinary",
+  "CLOUDINARY_UNICORN": "1 Unicornio Cloudinary",
+  "FIRST_PLACE": "Primer Lugar",
+  "SECOND_PLACE": "Segundo Lugar",
+  "THIRD_PLACE": "Tercer Lugar",
+  "CLOUDINARY_PLUS_FREE": "Cuenta Cloudinary Plus gratis por 1 año"
 }

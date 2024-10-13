@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { ArrorLeft, ArrowLink, ArrowRight, CalendarIcon, CheckIcon, CloudCreateLogo, SendIcon } from './Icons'
+import Button from './Button'
 
 export default function Hero () {
   const { t } = useTranslation()
@@ -23,7 +24,7 @@ export default function Hero () {
               CLOUDCREATE
             </span>
 
-            <h1 className='flex gap-4 items-center text-2xl md:text-4xl lg:text-6xl text-primary font-halloween leading-[1]'>
+            <h1 className='text-center flex gap-4 items-center text-2xl md:text-4xl lg:text-6xl text-primary font-halloween leading-[1]'>
               <ArrorLeft className='w-6 lg:w-12 h-auto' />
               SPOOKY AI HACKATHON
               <ArrowRight className='w-6 lg:w-12 h-auto' />
@@ -42,27 +43,7 @@ export default function Hero () {
 
             {/* buttons */}
             <div className='flex flex-col lg:flex-row items-center justify-center gap-4'>
-              <div className='relative group cursor-pointer'>
-                <a
-                  className='inline-flex items-center gap-2 rounded-[100vh] border border-light px-4 md:px-2 p-2 text-nowrap transition-transform group-hover:-rotate-[2deg] origin-bottom-left bg-dark'
-                  href='https://cld.media/cloudcreateregister'
-                  target='_blank' rel='noreferrer'
-                >
-                  <span className='px-4 hidden md:block font-bold bg-primary rounded-2xl'>
-                    {t('YES')}
-                  </span>
-                  <span>
-                    {t('WANT_TO_PARTICIPATE')}
-                  </span>
-                  <ArrowLink
-                    width={20}
-                    height={20}
-                  />
-                </a>
-                <div
-                  className='absolute rounded-[100vh] bg-grey/70 inset-0 -z-1'
-                />
-              </div>
+              <Button />
 
               <a
                 href='https://cld.media/cloudcreatesubmit'

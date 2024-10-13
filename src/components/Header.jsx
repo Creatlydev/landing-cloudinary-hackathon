@@ -38,7 +38,7 @@ export default function Header () {
 
       <img
         src={spiderTop}
-        className='w-[300px] sm:w-[400px] md:w-[500px] absolute top-0 left-20'
+        className='w-[300px] sm:w-[400px] md:w-[500px] absolute top-0 left-20 -z-1'
         alt='Tela de araña'
       />
 
