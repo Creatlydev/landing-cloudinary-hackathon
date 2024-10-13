@@ -2,9 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: '__Rubik__';
+  src: url('./assets/fonts/Rubik.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+@font-face {
+  font-family: '__Jolly_Lodger__';
+  src: url('./assets/fonts/JollyLodger.ttf') format('truetype');
+  font-style: normal;
+}
+
 @layer utilities {
   .text-large {
     font-size: 2rem;
     font-size: clamp(1.5rem, 7vw, 3rem);
   }
+
+  .font-halloween {
+    font-family: '__Jolly_Lodger__';
+  }
+
+  .font-normal {
+    font-family: '__Rubik__'
+  }
+}
+
+body {
+  @apply bg-dark;
+  @apply text-light;
+  overflow-x: hidden;
 }

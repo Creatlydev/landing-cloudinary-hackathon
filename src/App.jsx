@@ -1,10 +1,13 @@
 import { useTranslation } from 'react-i18next'
+import Header from './components/Header'
+import Hero from './components/Hero'
 
 export default function App () {
   const { t } = useTranslation()
   return (
-    <h1 className='text-large font-bold underline text-orange-600'>
-      {t('DAY_HACKATHON')}
-    </h1>
+    <>
+      <Header />
+      <Hero />
+    </>
   )
 }
